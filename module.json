@@ -1,7 +1,7 @@
 {
 	"id": "linkedin",
 	"name": "LinkedIn Widget",
-	"description": "Adds linkedin profile to HumHub`s sidebar.",
+	"description": "Adds linkedin profile widget to your HumHub`s sidebar.",
 	"keywords": ["linkedin"],
 	"version": "1.0.0",
 	"humhub": {
