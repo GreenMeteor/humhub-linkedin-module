@@ -15,9 +15,9 @@ use humhub\models\Setting;
   <div class="panel-body">
 
 <?= Html::beginTag('div') ?>
-<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js"></script>
+<script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
 
-<div class="LI-profile-badge"  data-version="v1" data-size="large" data-locale="en_US" data-type="vertical" data-theme="light"><a class="LI-simple-link" href='<?= $linkedinUrl; ?>'></a></div>
+<script type="IN/MemberProfile" data-id="<?= $linkedinUrl; ?>" width="fixed" height="100%" data-format="inline" data-related="false"></script>
 <?= Html::endTag('div'); ?>
 </div>
 </div>
