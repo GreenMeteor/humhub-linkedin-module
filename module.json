@@ -3,8 +3,8 @@
 	"name": "LinkedIn Widget",
 	"description": "Adds linkedin profile widget to your HumHub`s sidebar.",
 	"keywords": ["linkedin"],
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"humhub": {
-		"minVersion": "1.0"
+		"minVersion": "1.3"
 	}
 }
