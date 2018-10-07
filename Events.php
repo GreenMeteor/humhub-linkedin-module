@@ -26,8 +26,8 @@ public static function addLinkedinFrame($event)
         if (Yii::$app->user->isGuest) {
             return;
         }
-        $event->sender->view->registerAssetBundle(Assets::className());
-        $event->sender->addWidget(LinkedinFrame::className(), [], [
+        $event->sender->view->registerAssetBundle(Assets::class);
+        $event->sender->addWidget(LinkedinFrame::class, [], [
             'sortOrder' => Setting::Get('timeout', 'linkedin')
         ]);
     }
